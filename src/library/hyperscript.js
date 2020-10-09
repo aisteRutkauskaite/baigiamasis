@@ -1,5 +1,5 @@
 //virtualNode generatorius
-export default function createHyperScript(nodeNameOrComponent, attributes = {}, ...children) {
+export default function hyperscript(nodeNameOrComponent, attributes = {}, ...children) {
     return {
         nodeNameOrComponent,
         attributes,
